@@ -3366,6 +3366,14 @@ eslint-plugin-import@^2.20.2, eslint-plugin-import@^2.21.2:
     resolve "^1.17.0"
     tsconfig-paths "^3.9.0"
 
+eslint-plugin-json@^2.1.2:
+  version "2.1.2"
+  resolved "https://r.cnpmjs.org/eslint-plugin-json/download/eslint-plugin-json-2.1.2.tgz#5bc1c221984583c0c5ff21c488386e8263a6bbb7"
+  integrity sha1-W8HCIZhFg8DF/yHEiDhugmOmu7c=
+  dependencies:
+    lodash "^4.17.19"
+    vscode-json-languageservice "^3.7.0"
+
 eslint-plugin-vue@^6.2.2:
   version "6.2.2"
   resolved "https://registry.npm.taobao.org/eslint-plugin-vue/download/eslint-plugin-vue-6.2.2.tgz?cache=0&sync_timestamp=1596192239649&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Feslint-plugin-vue%2Fdownload%2Feslint-plugin-vue-6.2.2.tgz#27fecd9a3a24789b0f111ecdd540a9e56198e0fe"
@@ -4968,6 +4976,11 @@ json5@^2.1.2:
   integrity sha1-ybD3+pIzv+WAf+ZvzzpWF+1ZfUM=
   dependencies:
     minimist "^1.2.5"
+
+jsonc-parser@^2.2.1:
+  version "2.3.0"
+  resolved "https://r.cnpmjs.org/jsonc-parser/download/jsonc-parser-2.3.0.tgz#7c7fc988ee1486d35734faaaa866fadb00fa91ee"
+  integrity sha1-fH/JiO4UhtNXNPqqqGb62wD6ke4=
 
 jsonfile@^4.0.0:
   version "4.0.0"
@@ -8187,6 +8200,37 @@ vm-browserify@^1.0.1:
   version "1.1.2"
   resolved "https://registry.npm.taobao.org/vm-browserify/download/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha1-eGQcSIuObKkadfUR56OzKobl3aA=
+
+vscode-json-languageservice@^3.7.0:
+  version "3.8.0"
+  resolved "https://r.cnpmjs.org/vscode-json-languageservice/download/vscode-json-languageservice-3.8.0.tgz#c7e7283f993e3db39fa5501407b023ada6fd3ae3"
+  integrity sha1-x+coP5k+PbOfpVAUB7Ajrab9OuM=
+  dependencies:
+    jsonc-parser "^2.2.1"
+    vscode-languageserver-textdocument "^1.0.1"
+    vscode-languageserver-types "^3.15.1"
+    vscode-nls "^4.1.2"
+    vscode-uri "^2.1.2"
+
+vscode-languageserver-textdocument@^1.0.1:
+  version "1.0.1"
+  resolved "https://r.cnpmjs.org/vscode-languageserver-textdocument/download/vscode-languageserver-textdocument-1.0.1.tgz#178168e87efad6171b372add1dea34f53e5d330f"
+  integrity sha1-F4Fo6H761hcbNyrdHeo09T5dMw8=
+
+vscode-languageserver-types@^3.15.1:
+  version "3.15.1"
+  resolved "https://r.cnpmjs.org/vscode-languageserver-types/download/vscode-languageserver-types-3.15.1.tgz#17be71d78d2f6236d414f0001ce1ef4d23e6b6de"
+  integrity sha1-F75x140vYjbUFPAAHOHvTSPmtt4=
+
+vscode-nls@^4.1.2:
+  version "4.1.2"
+  resolved "https://r.cnpmjs.org/vscode-nls/download/vscode-nls-4.1.2.tgz#ca8bf8bb82a0987b32801f9fddfdd2fb9fd3c167"
+  integrity sha1-yov4u4KgmHsygB+f3f3S+5/TwWc=
+
+vscode-uri@^2.1.2:
+  version "2.1.2"
+  resolved "https://r.cnpmjs.org/vscode-uri/download/vscode-uri-2.1.2.tgz#c8d40de93eb57af31f3c715dd650e2ca2c096f1c"
+  integrity sha1-yNQN6T61evMfPHFd1lDiyiwJbxw=
 
 vue-eslint-parser@^7.0.0:
   version "7.1.0"
