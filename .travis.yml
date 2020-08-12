@@ -1,0 +1,28 @@
+# env info
+os: osx
+language: node_js
+node_js:
+  - 12
+cache:
+ directories:
+  - node_modules
+
+# install
+install:
+  - npm install
+
+ #script
+script:
+  - npm run build
+after_script:
+  - cd dist && git init
+  - git config user.name "mulili"
+  - git config user.email "muli9611@gmail.com"
+  - git remote add origin git@github.com:mulili/eleme.git
+  - git add .
+  - git commit -m 'update pages'
+  - git push -f "https://${GIT_TOKEN}@github.com/mulili/eleme.git" master:gh-pages"
+
+branches:
+  only:
+    - master
