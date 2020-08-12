@@ -18,7 +18,7 @@ after_script:
   - cd dist && git init
   - git config user.name "mulili"
   - git config user.email "muli9611@gmail.com"
-  - git remote add origin git@github.com:mulili/eleme.git
+  - git remote add origin https://github.com/mulili/eleme.git
   - git add .
   - git commit -m 'update pages'
   - git push -f "https://${GIT_TOKEN}@github.com/mulili/eleme.git" master:gh-pages"
