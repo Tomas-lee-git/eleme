@@ -20,8 +20,8 @@ after_script:
   - git config user.email "muli9611@gmail.com"
   - git remote add origin https://github.com/mulili/eleme.git
   - git add .
-  - git commit -m 'update pages'
-  - git push -f "https://${GIT_TOKEN}@github.com/mulili/eleme.git" master:gh-pages"
+  - git commit -m "update pages"
+  - git push -f "https://${GIT_TOKEN}@github.com/mulili/eleme.git" master:gh-pages
 
 branches:
   only:
