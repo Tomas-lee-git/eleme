@@ -1,3 +1,3 @@
 module.exports = {
-  assetsDir: process.env.NODE_ENV === 'production' ? './eleme/' : './',
+  publicPath: process.env.NODE_ENV === 'production' ? '/eleme/' : '/',
 };
